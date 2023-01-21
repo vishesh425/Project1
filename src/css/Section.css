@@ -1,0 +1,724 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+a{
+  text-decoration: none;
+}
+.services_section {
+  width: 100%;
+    background-image: url(../images/services-bg.png);
+    height: auto;
+    margin-top: 75px;
+    padding-bottom: 60px;
+    background-size: 100%;
+}
+.container{
+/*  width: 100%;*/
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}   
+.row{
+ display: flex;
+    width: 1140px;
+    margin: 0 44px;
+    margin-right: -15px;
+    margin-left: 90px;
+    padding-left: 12PX;
+  padding-right: 12px;
+}
+.col-md-8{
+    position: relative;
+    width: 760px;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+}
+.col-md-4{
+  position: relative;
+  width:380px ;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  float: left;
+}
+.services_taital{
+     width: 100%;
+    float: left;
+    font-size: 34px;
+    color: #282c47;
+    padding-top: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 24px;
+}
+.services_text{
+    width: 90%;
+    float: left;
+    font-size: 16px;
+    color: #060606;
+    margin: 35px;
+    margin-left: 0px;
+    line-height: 24px;
+}
+.moremore_bt {
+  width: 170px;
+   float: left;
+  margin-top: 30px;
+  position: relative;
+  z-index: 2; 
+}
+.moremore_bt a{
+  width: 100%;
+  float: left;
+  font-size: 16px;
+  color: #4aafff;
+  border: 2px solid #88c6f8;
+  text-align: center;
+  padding: 15px 0px;
+  border-radius: 40px;
+  text-decoration: none;
+}
+.moremore_bt a:hover{
+  color: #000;
+    border: 2px solid #ff5a58;
+}
+.image_1{
+  width: 100%;
+    float: left;
+}
+/*Serveces .css*/
+.what_we_do_section{
+  margin-top:90px;
+  text-align: center;
+}
+.what_text{
+  margin-top: 12px;
+}
+.what_we_do_section_2{
+
+    margin-top: 50px;
+}
+.col-lg-3 ,.col-sm-6{
+     position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.box_main{
+    width: 100%;
+    float: left;
+    background-color: #1b5a8d;
+    border-radius: 10px;
+    padding: 30px 0px;
+}
+.box_main.active {
+    background-color: #ff5a58;
+}
+.box_main:hover{
+  background-color: #ff5a58;
+}
+.icon_1{ 
+    width: 100%;
+    float: left;
+    text-align: center;
+    min-height: 70px;
+}
+.accounting_text{
+    width: 100%;
+    float: left;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+}
+.lorem_text{ 
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    margin: 35px;
+    margin-left: 0px;
+  }
+.moremore_bt_1{
+  width: 170px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+  }
+.moremore_bt_1 a {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 40px;
+    text-decoration: none;
+  }
+/*Projrct Section Start Css*/
+.project_section {
+    width: 100%;
+    float: left;
+    padding-bottom: 90px;
+}
+.col-md-6{
+      position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.project_main {
+    width: 100%;
+    float: left;
+    padding-top: 200px;
+}
+.image_6{
+  width: 100%;
+  float: left;
+  position: relative;
+  left: -100px;
+  top: -50px;
+}
+.images_main {
+    width: 100%;
+    float: left;
+}
+.images_left {
+    width: 50%;
+    float: left;
+}
+.images_right {
+    width: 47%;
+    float: left;
+    margin-top: 70px;
+    margin-left: 12px;
+}
+.container_1 {
+    position: relative;
+    margin-top: 12px;
+}
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.container_1:hover .image{
+    opacity: 0.3;
+    background-color: rgb(71.0.5.9.5)!important;
+}
+ .container_1:hover   .middle{
+    opacity: 1;
+}
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+.text {
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+.fact_text {
+    width: 100%;
+    float: left;
+    font-size: 15px;
+    color: #060606;
+    text-align: center;
+}
+.container_1::after {
+    display: none;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(225 ,225 ,225 ,0.8);
+    width: 100%;
+    height: 100%;
+}
+.project_section_2{
+    width: 100%;
+    background-color: #ff5a58;
+    float: left;
+    height: auto;
+    padding:50px 0px 40px 0px ;
+}
+.accounting_text_1{
+        width: 100%;
+    float: left;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+    padding-top: 10px
+}
+.yers_text{
+  width: 100%;
+    float: left;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    color: #ffffff;
+    margin-left: 0px;
+    margin-top: 0px; 
+    padding-top: 10px
+}
+.col-lg-3 {
+     position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+/*Team Section CSS*/
+.team_section {
+    width: 100%;
+    float: left;
+     padding-top: 90px;
+    padding-bottom: 0px;
+}
+.what_taital {
+    width: 100%;
+    float: left;
+    font-size: 34px;
+    color: #060606;
+    padding-top: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.services_taital::after {
+    content: '';
+    background-color: #ff5a58;
+    position: absolute;
+    width: 60px;
+    text-align: center; 
+    right: initial;
+    top: 0px;
+    margin: -9px auto;
+    display: flex;
+    justify-content: center;
+    height: 7px;
+    left: 0;
+    margin-left: 12px;
+    border-radius: 100px;
+}
+.projectanim::after {
+    content: '';
+    background-color: #ff5a58;
+    position: absolute;
+    width: 60px;
+    text-align: center; 
+    right: initial;
+    top: 0px;
+    margin: 190px auto;
+    display: flex;
+    justify-content: center;
+    height: 7px;
+    left: 0;
+    margin-left: 12px;
+    border-radius: 100px;
+}
+.Serviceanim::after {
+    content: '';
+    background-color: #ff5a58;
+    position: absolute;
+    width: 60px;
+    text-align: center;
+    right: 0;
+    top: 0px;
+    margin: 88% auto;
+    display: flex;
+    justify-content: center;
+    height: 7px;
+    left: 0;
+    border-radius: 100px;
+}
+.Teamanim::after {
+    content: '';
+    background-color: #ff5a58;
+    position: absolute;
+    width: 60px;
+    text-align: center;
+    right: 0;
+    top: 0px;
+    margin: 200% auto;
+    display: flex;
+    justify-content: center;
+    height: 7px;
+    left: 0;
+    border-radius: 100px;
+}
+.Clientanim::after {
+    content: '';
+    background-color: #ff5a58;
+    position: absolute;
+    width: 60px;
+    text-align: center;
+    right: 0;
+    top: 0px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    height: 7px;
+    left: 0;
+    border-radius: 100px;
+}
+
+
+.what_text_1{
+    width: 50%;
+    margin: 0 auto;
+    font-size: 16px;
+    color: #060606;
+    text-align: center;
+}
+.col-sm-3{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.image_7 {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.readable_text {
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    text-align: center;
+    color: #060606;
+    margin: 20px;
+    margin-left: 0;
+    margin-left: 0px;
+    font-weight: 450;
+}
+.readable_text_1 {
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    text-align: center;
+    color: #ff5a58;
+    margin: 0px;
+    font-weight: 450;
+}
+.social_icon {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.social_icon ul {
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+}
+.social_icon li {
+    float: left;
+    padding: 20px 3px 0px 3px;
+}
+.team_section_2 {
+    padding-top: 90px;
+    padding-bottom: 0px;
+}
+ul, li, ol {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+/*Client Section CSS*/
+.client_section {
+    width: 100%;
+    float: left;
+    padding-bottom: 140px;
+    padding-top: 0px; 
+    padding-bottom: 90px;
+    padding-top: 90px;
+}
+.client_section_2{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.client_section_2 ul{
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+}
+.client_section_2 li {
+    float: left;
+    padding: 50px 15px 0px 15px;
+}
+.round_1{
+    padding-top: 50px;
+}
+.round_2{
+    padding-top: 30px;
+}
+.dummy_text{
+    width: 67%;
+    margin: 0 auto;
+    font-size: 20px;
+    color: #524a4a;
+    text-align: center;
+    padding-top: 30px
+}
+.carousel {
+    position: relative;
+}
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: -50px;
+    left: 0;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+}
+.carousel-indicators .active {
+    background-color: #1b5a8d;
+}
+.carousel-indicators li {
+    width: 60px;
+    height: 15px;
+    background-color: #ff5a58;
+    border-radius: 4px;
+    bottom: -80px;
+    margin: 4px;
+}
+.carousel-indicators li::before {
+    position: absolute;
+    top: -10px;
+    left: 0;
+    display: inline-block;
+    width: 100%;
+    height: 10px;
+    content: "";
+}
+.carousel-indicators li::after {
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    display: inline-block;
+    width: 100%;
+    height: 10px;
+    content: "";
+}
+.carousel-item {
+    position: relative;
+    display: none;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    transition: -webkit-transform .6s ease;
+    transition: transform .6s ease;
+    transition: transform .6s ease,-webkit-transform .6s ease;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+}
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.contact_section {
+    width: 100%;
+    float: left;
+}
+.amet_text {
+    width: 100%;
+    float: left;
+    color: #1e1e1e;
+    font-size: 16px;
+    text-align: center;
+    margin-left: 0px;
+}
+.contact_section2 {
+    width: 100%;
+    float: left;
+    padding-top: 80px;
+}
+.mail_section {
+    width: 90%;
+    float: left;
+    padding-left: 50px;
+}
+.mail_text_1 {
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    color: #666666;
+    background-color: transparent !important;
+    border-bottom: 1px solid #050000 !important;
+    padding-right: 20px;
+    border: 0px;
+    padding-top: 20px;
+}
+.massage_text {
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    color: #666666;
+    background-color: transparent !important;
+    border-bottom: 1px solid #050000 !important;
+    padding-right: 20px;
+    border: 0px;
+    height: 70px;
+    padding-top: 30px;
+}
+.send_bt {
+    width: 170px;
+    float: left;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.send_bt a {
+    width: 100%;
+    float: left;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    background-color: #ff5a58;
+    padding: 10px 0px;
+    text-transform: uppercase;
+    border-radius: 30px;
+}
+.carousel-item-next, .carousel-item-prev, .carousel-item.active {
+    display: block;
+}
+/*Footer Section*/
+.footer_section {
+    width: 100%;
+    float: left;
+    background-color: #121212;
+    height: auto;
+    padding-top: 90px;  
+     padding-bottom: 0px;
+}
+.about_text {
+    width: 100%;
+    float: left;
+    font-size: 24px;
+    color: #fffcf4;
+}
+.location_text {
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    color: #fffcf4;
+    padding-top: 18px;
+}
+.padding_left_15 {
+    padding-left: 15px;
+}
+.dolor_text {
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    color: #fffcf4;
+    padding-top: 10px;
+    margin: 0px;
+    line-height: 40px;
+}
+.footer_images {
+    width: 100%;
+    float: left;
+}.footer_images_left {
+    width: 32%;
+    float: left;
+}
+.image_12 {
+    width: 88%;
+    float: left;
+    margin-top: 15px;
+}
+.footer_images_right {
+    width: 50%;
+    float: left;
+}
+.mail_text {
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    color: #d1d2d3;
+    background-color: #ffffff;
+    height: auto;
+    padding: 5px 15px;
+    margin-top: 18px;
+}
+.subscribe_bt {
+    width: 100%;
+    float: left;
+}
+.subscribe_bt a {
+    width: 170px;
+    float: left;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #ff5a58;
+    height: auto;
+    padding: 5px 0px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 22px;
+}
+.footer_social_icon {
+    width: 100%;
+    float: left;
+}
+.footer_social_icon ul {
+    margin: 0px;
+    padding: 0px;
+}
+.footer_social_icon li {
+    float: left;
+    padding: 35px 15px 0px 0px;
+}
+.copyright_section {
+    width: 60%;
+    margin: 0 auto;
+    border-top: 1px solid #fff;
+    margin-top: 55px;
+    text-align: center;
+}
+.copyright_text {
+    width: 100%;
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 0px;
+    padding: 10px 0px;
+}
+.copyright_text a {
+    color: #ffffff;
+}
